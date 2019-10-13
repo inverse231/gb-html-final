@@ -287,6 +287,7 @@
   text-align: center;
   text-decoration: none;
   color: #555555;
+  margin: 0 0 15px 0;
 }
 .services__item_icon {
   fill: #555555;
@@ -296,7 +297,7 @@
   fill: #deb887;
 }
 .services__item:hover h3 {
-  color: #deb887;  
+  color: #deb887;
 }
 .services__item:hover:after {
   background-color: #deb887;
@@ -312,6 +313,7 @@
 }
 .services__item h3 {
   width: 100%;
+  margin: 0 0 18px 0;  
 }  
 .services__item p {
   width: 100%;
@@ -1537,8 +1539,12 @@
     top: 168px;
   }
 }
-
-
+@media screen and (max-width: 630px) {
+  .video-control {
+    left: 7%;
+  }
+}
+/* for js burger */
 .header__add {
-  height: 550px;
+  height: 570px;
 }
